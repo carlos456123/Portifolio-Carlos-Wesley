@@ -85,6 +85,7 @@ main {
   border-radius: 15px;
 }
 
+
 .card {
   background: #1c2f45; 
   padding: 25px;
@@ -107,6 +108,7 @@ main {
   justify-content: space-between; 
 }
 
+/* BARRA DE FUNDO */
 .bar {
   background: #2f4258; 
   height: 8px;
