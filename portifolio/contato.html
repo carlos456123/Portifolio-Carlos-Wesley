@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<title>Portfólio</title>
+</head>
+<header>
+  <nav>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+      <a href="index.html">início</a>
+      <a href="sobre.html">sobre</a>
+      <a href="habilidades.html">habilidades</a>
+      <a href="cursos.html">cursos</a>
+      <a href="contato.html">contato</a>
+    </div>
+  </nav>
+</header>
+
+<main class="card">
+  <section >
+    <div class="info">
+      <h2>Informações de Contato</h2>
+      <div class="item">
+        <div>
+          <h4>Email</h4>
+          <p>carloswesley@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div>
+          <h4>Telefone</h4>
+          <p>(83) 456-789</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div>
+          <h4>LinkedIn</h4>
+          <p>https://www.linkedin.com/in/carlos-wesley-cavalcanti-santos-2baba3404/#:~:text=www.linkedin.com/in/carlos%2Dwesley%2Dcavalcanti%2Dsantos%2D2baba3404</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div>
+          <h4>GitHub</h4>
+          <p>https://github.com/carlos456123</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="tool">
+      <h2>Envie uma Mensagem</h2>
+      <form onsubmit="validarForm(event)">
+        <input type="text" id="nome" placeholder="Seu nome completo">
+        <input type="email" id="email" placeholder="Seu email">
+        <textarea id="msg" placeholder="Sua mensagem"></textarea>
+        <button>Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>© 2026 - Carlos Wesley</footer>
+<body>
